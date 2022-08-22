@@ -1,2 +1,2 @@
-# patika-calismalari
-Patika eğitimleri boyunca kullancağım toplu repodur.
+# Kolduyoruz Patika Çalışma Dosyaları
+Kodluyoruz Patika eğitimleri boyunca kullancağım toplu repodur.
