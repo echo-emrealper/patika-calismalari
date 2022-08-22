@@ -1,2 +1,2 @@
 # Patika.dev Çalışma Dosyaları
-[https://www.kodluyoruz.org/](Kodluyoruz) ve [https://app.patika.dev/][Patika.dev} eğitimleri boyunca çalıştığım proje ve ödevlerin depolandığı toplu repodur.
+[Kodluyoruz](https://www.kodluyoruz.org/) ve [Patika.dev](https://app.patika.dev/) eğitimleri boyunca çalıştığım proje ve ödevlerin depolandığı toplu repodur.
