@@ -1,2 +1,2 @@
 # Patika Çalışma Dosyaları
-Kodluyoruz Patika eğitimleri boyunca kullancağım toplu repodur.
+Kodluyoruz Patika eğitimleri boyunca çalıştığım proje ve ödevlerin depolandığı toplu repodur.
