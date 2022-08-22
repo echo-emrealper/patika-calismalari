@@ -1,4 +1,4 @@
-# Kodluyoruz HTML Bölüm Sonu Çalışması
+# Kodluyoruz HTML Pasta Tarifi Sayfası Tasarlanması
 
  * Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [HTML](https://app.patika.dev/courses/html) eğitimlerinde oluşturduğumuz bölüm sonu çalışmasıdır.
 
