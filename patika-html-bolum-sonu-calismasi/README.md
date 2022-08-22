@@ -9,29 +9,9 @@
     * Bir adet README dosyası barındırmaktadır.
 
 ---
-## Installation
+## Preview
 
-Öncelikle projeyi clonelayınız.
 
-```bash
-git clone https://github.com/echo-emrealper/kodluyoruz-html-bolum-sonu-calismasi.git
-```
----
-## Usage
-
-Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
-
-*Linux için:*
-```linux
-cd kodluyoruz-html-bolum-sonu-calismasi
-code .
-```
----
-## Contributing
-
-* Pull requestler kabul edilir. 
-* Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
+![echo-emrealper](img/pre-htlm-sonu-calisma.jpg)
 
 ---
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
