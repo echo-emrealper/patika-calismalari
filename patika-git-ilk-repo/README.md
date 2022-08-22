@@ -1,4 +1,4 @@
-# Kodluyoruz Ilk Repo
+# Ilk Repo
 
  * Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Git](https://app.patika.dev/courses/git) eğitimlerinde oluşturduğumuz ilk repodur.
 
