@@ -1,4 +1,4 @@
-# Kodluyoruz HTML Bölüm Sonu Çalışması
+# HTML Bölüm Sonu Çalışması
 
  * Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [HTML](https://app.patika.dev/courses/html) eğitimlerinde oluşturduğumuz bölüm sonu çalışmasıdır.
 
