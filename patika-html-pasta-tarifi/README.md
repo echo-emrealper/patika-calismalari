@@ -6,7 +6,8 @@
     * Bir adet index.html sayfası,
     * Bir adet README dosyası barındırmaktadır.
 
-* Bir pastanın tarifi tüm sayfa kullanımı için fazla büyük olduğundan ortada bir kart gibi tarif vermek estetik açıdan daha uygun bulundu. 
+* İçeriğin (bir pastanın tarifi) tam sayfa kullanımı için fazla büyük olacağı düşüncesi ile estetik açıdan sayfanın ortasında bir kart şeklinde tasarlanması daha uygun bulundu
+
 * CSS eğitimi alınmadığından yerleşim problemi tablolar vasıtası ile giderilmeye çalışıldı.
 
 ---
