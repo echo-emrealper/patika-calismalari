@@ -1,4 +1,4 @@
-# Kodluyoruz İlk Web Sayfası
+# İlk Web Sayfası
 
  * Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [HTML](https://app.patika.dev/courses/html) eğitimlerinde oluşturduğumuz ilk web sayfasına ait repodur.
 
