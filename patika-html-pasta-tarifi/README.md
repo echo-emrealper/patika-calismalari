@@ -10,30 +10,9 @@
 * CSS eğitimi alınmadığından yerleşim problemi tablolar vasıtası ile giderilmeye çalışıldı.
 
 ---
-## Installation
+## Preview
 
-Öncelikle projeyi clonelayınız.
 
-```bash
-git clone https://github.com/echo-emrealper/
-kodluyoruz-pasta-tarifi.git
-```
----
-## Usage
-
-Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
-
-*Linux için:*
-```linux
-cd kodluyoruz-pasta-tarifi
-code .
-```
----
-## Contributing
-
-* Pull requestler kabul edilir. 
-* Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
+![echo-emrealper](img/echo-emrealper-kumarbaz-pastasi.png)
 
 ---
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
