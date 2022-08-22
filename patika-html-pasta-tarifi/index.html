@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumarbaz Pastası Tarifi</title>
+    <link rel="shortcut icon" href="img/icon-cake.png" type="image/x-icon">
+
+    <!-- 
+        Style  Notları: 
+        1. Bir pastanın tarifi tüm sayfa kullanımı için fazla
+        büyük olduğundan ortada bir kart gibi tarif vermek estetik açıdan daha uygun bulundu.
+        2. Henüz Css eğitimi alınmadı, araştırma yapılarak değiştirilmek istenen noktalar için
+        örnekler üzerinden çalışıldı
+    -->
+
+    <style>
+        body {
+            background-image: url(img/bakround-bakery2.jpg);
+            background-repeat: repeat;
+            background-blend-mode: lighten;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .content {
+            border-style: solid;
+            border-color: darkred;
+            max-width: 65%;
+            margin: auto;
+            margin-top: 100px;
+            padding: 1%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: white;
+        }
+
+        .header {
+            background-image: url(img/header-footer.jpg);
+        }
+
+        .blockquote {
+            text-align: right;
+            color: darkgreen;
+            background-image: url(img/header-footer.jpg);
+
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Content - Start -->
+    <div class="content">
+        <hr>
+        <!-- Header - Start -->
+        <header class="header">
+            <table>
+                <tr>
+                    <td><img style="margin-bottom:0;" src="img/buddy-tarla.png" width="300" height="300"></td>
+                    <td>
+                        <h1>
+                            <p><em>Buddy Tarlayı Satıyor: <span style="color: RGB(190, 31, 84);">Kumarbaz
+                                        Pastası</em></span></p>
+                        </h1>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </header>
+        <!-- Header - End -->
+        <br>
+        <!-- Section Ürün Kartı - Start -->
+        <!-- CSS eğitimlerine henüz geçilmediğinden yerleştirme ve spacing işlemleri tablo ile aşılmaya çalışıldı. -->
+        <Section>
+            <picture>
+                <p style="text-align:center ;"><img style="border-style:solid ;border-color:RGB(190, 31, 84);"
+                        src="img/gambler-cake.jpg" alt="Gambler Cake" alt="Gambler Cake" width="20%" height="20%"></p>
+            </picture>
+            <table style="text-align:center;margin-left:auto ;margin-right:auto">
+                <tr>
+                    <th style="width:250px; color:RGB(190, 31, 84);">
+                        <h2>Kaç Kişilik</h2>
+                    </th>
+                    <th style="width:250px; color:RGB(190, 31, 84)">
+                        <h2>Hazırlanma Süresi</h2>
+                    </th>
+                    <th style="width:250px; color:RGB(190, 31, 84)">
+                        <h2>Pişirme Süresi</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <td><b>5 Kişilik</b></td>
+                    <td><b>25 Dakika</b></td>
+                    <td><b>45 Dakika</b></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <!-- Articla Malzeme ve Tarif - Start: Tablo olarak tasarlandığından ve  tabloyu bölmek anlamasal olarak mantıklı olmayacağı için tek article işaretlemesi yapıldı-->
+            <article>
+                <table style="text-align:left; margin-left:auto ;margin-right:auto;">
+                    <tr>
+                        <th style="width:50% ;">
+                            <p class="box"><img src="img/malzemeler.png"><span style="margin: 5px;">
+                                    <strong>Malzemeler</strong></span></p>
+                        </th>
+                        <th>
+                            <p class="box"><img src="img/malzemeler.png"><span style="margin: 5px;"> <strong>Pastanın
+                                        Tarifi</strong></span></p>
+                        </th>
+                    </tr>
+                    <td style="vertical-align: top;">
+                        <ul>
+                            <li>Eser miktarda un, şeker, süt, yumurta, kakao, tuz, fındık, fıstık</li>
+                            <li>10 litre şurup</li>
+                            <li>100 kg gıda boyası</li>
+                            <li>Amca, dayı, yiğen, tüm hakaret kaldırabilen akrabalarını doldurduğun
+                                bir aile işletmesi</li>
+                            <li> En sıkıcı gündelik işleri ve hayatı katılımcıların abarmalarıyla ve kendine has
+                                mimikleriyle bir içerik varmışçasına reality show' a döken bir tv işletmesi </li>
+                        </ul>
+                    </td>
+                    <td style="vertical-align: top;">
+                        <ul>
+                            <li>Şeker, un, kabartma tozu, nişasta, kakao ve tuzu bir kabın içinde harmanlayın.</li>
+                            <li>Süt, yumurta beyazı ve yumurtayı ayrı bir kabın içinde karıştırın.</li>
+                            <li>Bu karışıma sütlü karışımı ekleyin ve çırpın.</li>
+                            <li>4-5 dakika tüm malzemeler pürüzsüz bir kıvam alıncaya kadar çırpın.</li>
+                            <li>Şurubu, gıda boyasını boca et ki başka tad alınmasın</li>
+                            <li>Tv programında küçük enişteyi ez, yiğenin gönül işlerinden bahset ki bağlam değiştir
+                                reyting
+                                ver ortalık şenlensin</li>
+                            <li>3-4 saat pişir, afiyet olsun.</li>
+
+                        </ul>
+                    </td>
+                    </tr>
+                </table>
+            </article>
+            <!-- Article - End -->
+        </section>
+        <!-- Section Ürün Kartı - End -->
+        <br>
+        <!-- Footer - Start -->
+        <footer>
+            <picture>
+                <table style="margin: auto;">
+                    <tr>
+                        <td>
+
+                            <a href="https://www.kodluyoruz.org/"><img src="img/logo-kodluyoruz.png" width="100"></a>
+                        </td>
+                        <td style="padding-bottom:6%;">|</td>
+                        <td>
+
+                            <a href="https://app.patika.dev/"><img src="img/logo-patika.png" width="55"></a>
+                        </td>
+                    </tr>
+
+                </table>
+            </picture>
+            <hr>
+            <blockquote class=" blockquote">
+                <p><i>"Tarifi ne olursa olsun, herhangi bir fırıncı, bazı iyi malzemeler ve iyimser bir
+                        tavır altında yeterli şiddet uygulandığında mutfakta
+                        harikalar yaratabilir!"</i></p>
+                <p>Bartolo "Buddy" Valastro</p>
+
+            </blockquote>
+        </footer>
+        <!-- Footer - End -->
+    </div>
+    <!-- Content - End -->
+</body>
