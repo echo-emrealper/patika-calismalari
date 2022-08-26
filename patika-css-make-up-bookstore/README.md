@@ -5,7 +5,6 @@
 ## Çalışma İndirme Linki
 
 [Dropbox' dan klasörü indir](https://www.dropbox.com/sh/4agoaa15dbbobwx/AACg1gWsS13YWXKQVJMtB0yDa?dl=0)
----
 ## Preview
 
 
