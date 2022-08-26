@@ -8,7 +8,7 @@
     * Bir adet tuhaf-kurgu.html sayfası, 
     * Bir adet README dosyası barındırmaktadır.
 ---
-# Çalışma İndirme Linki
+## Çalışma İndirme Linki
 
 [Dropbox' dan klasörü indir](https://www.dropbox.com/sh/4agoaa15dbbobwx/AACg1gWsS13YWXKQVJMtB0yDa?dl=0)
 ---
