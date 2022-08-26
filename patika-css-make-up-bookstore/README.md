@@ -1,6 +1,6 @@
 # Site Makyajlama
 
-Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-CSS](https://app.patika.dev/courses/css/) eğitimlerinde örnek bir site oluşturulması ve CSS stillerinin uygulanması konulu 1. ödev içeriğidir.
+* Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-CSS](https://app.patika.dev/courses/css/) eğitimlerinde örnek bir site oluşturulması ve CSS stillerinin uygulanması konulu 1. ödev içeriğidir.
 ---
 ## Çalışma İndirme Linki
 
