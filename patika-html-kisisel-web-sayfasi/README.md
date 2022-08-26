@@ -6,10 +6,10 @@
 
  * Konular ilerledikçe güncellemeler gerçekleştirilecektir.
 
----
+## Çalışma İndirme Linki
+
+[Dropbox' dan klasörü indir](https://www.dropbox.com/sh/zjv9dk0wmf55a9y/AABSrd8d-Yy67OGPl2VgpnUaa?dl=0)
+
 ## Preview
 
-
 ![echo-emrealper](media/pre-up-hw02.jpg)
-
----
