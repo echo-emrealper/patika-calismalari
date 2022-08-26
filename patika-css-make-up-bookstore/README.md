@@ -10,5 +10,3 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-CSS](https://app.patika
 
 
 ![echo-emrealper](media/brand-files/echo-emrealper-css-odev-first-preview.png)
-
----
