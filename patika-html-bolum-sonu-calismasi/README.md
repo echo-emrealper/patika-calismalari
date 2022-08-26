@@ -8,10 +8,12 @@
     * Bir adet contact.html sayfası,
     * Bir adet README dosyası barındırmaktadır.
 
----
-## Preview
+## Çalışma İndirme Linki
 
+[Dropbox' dan klasörü indir](https://www.dropbox.com/sh/b6u8oc0xgyjqf4y/AAAcam5E_Oh11L33g2m1zsDTa?dl=0)
+
+## Preview
 
 ![echo-emrealper](img/pre-htlm-sonu-calisma.jpg)
 
----
+
