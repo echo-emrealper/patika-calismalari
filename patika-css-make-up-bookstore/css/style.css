@@ -1,0 +1,108 @@
+/****************** Layout ********************/
+body {
+    background-color: #F8EFD4;
+}
+
+.body-box {
+    background-color: whitesmoke;
+    color: #000;
+    font-family: "Roboto", "sans-serif";
+    position: relative;
+    border-style: solid;
+    margin: auto;
+    max-width: 60%;
+    margin-top: 10px;
+    padding: 1%;
+}
+
+
+hr {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: none;
+    height: 3px;
+    background: #FFBD00;
+}
+
+/****************** Menu  *********************/
+ul.menu {
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul.menu li {
+    display: inline;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    padding: .2em 3em;
+    color: white;
+    background-color: #4E4E4E;
+}
+
+ul.menu li a:hover {
+    background-color: #FFBD00;
+    color: #000;
+}
+
+.table {
+    display: table;
+    margin: auto;
+    padding: 0;
+
+}
+
+/****************** Footer ********************/
+ul.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.footer li {
+    display: inline;
+    vertical-align: top;
+}
+
+/*************** Content Grid ****************/
+.manto {
+    display: grid;
+    position: relative;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    background-color: whitesmoke;
+    color: #000;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    background-color: whitesmoke;
+    color: #000;
+    font-size: 120%;
+}
+
+/*************** Text & Image ****************/
+
+
+.image {
+    position: relative;
+}
+
+h5 {
+    color: yellow;
+    text-decoration: solid;
+    text-decoration-thickness: 100%;
+    text-shadow: black 2px 0 2px;
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+}
