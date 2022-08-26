@@ -10,10 +10,10 @@
 
 * CSS eğitimi alınmadığından yerleşim problemi tablolar vasıtası ile giderilmeye çalışıldı.
 
----
+## Çalışma İndirme Linki
+
+[Dropbox' dan klasörü indir](https://www.dropbox.com/sh/ofysdpw3krkt6jc/AAAKbEtaKSOSuQZ0jZ09JjWCa?dl=0)
+
 ## Preview
 
-
 ![echo-emrealper](img/echo-emrealper-kumarbaz-pastasi.png)
-
----
