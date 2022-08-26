@@ -11,7 +11,7 @@
 ## Preview
 ![echo-emrealper](figures/echo-emrealper-first-repo-preview.jpg)
 
----
+
 ## Installation
 
 Öncelikle projeyi clonelayınız.
@@ -19,7 +19,7 @@
 ```bash
 git clone https://github.com/echo-emrealper/kodluyoruzilkrepo.git
 ```
----
+
 ## Usage
 
 Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
@@ -29,12 +29,11 @@ Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 cd kodluyoruzilkrepo
 code .
 ```
----
 ## Contributing
 
 * Pull requestler kabul edilir. 
 * Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
 
----
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
