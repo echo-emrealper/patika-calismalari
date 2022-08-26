@@ -15,5 +15,3 @@
 ## Preview
 
 ![echo-emrealper](img/pre-htlm-sonu-calisma.jpg)
-
-
