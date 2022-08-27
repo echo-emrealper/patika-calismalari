@@ -2,7 +2,7 @@
 
 [Kodluyoruz](https://www.kodluyoruz.org/) ve [Patika.dev](https://app.patika.dev/) eğitimleri boyunca hazırladığım ödev ve projelerin depolandığı repodur.
 
-## Çalışma Linkleri Klasörleri Hakkında
+## Çalışma Klasörleri ve Linkleri Hakkında
 
 * Eğitimlerde oluşturulan projeler ve ödevler kategorize edilerek bu repo (eğitim reposu) içerisinde klasörlenmiştir.
 
