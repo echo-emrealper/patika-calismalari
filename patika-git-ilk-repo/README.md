@@ -9,6 +9,7 @@
 [Çalışma Klasörü Linki (Dropbox)](https://www.dropbox.com/sh/dnyiaetwmmiuknd/AACAenWPL8XID_-MegdiXdO9a?dl=0)
 
 * Eğitimlerde oluşturulan projeler ve ödevler kategorize edilerek tek bir repo (eğitim reposu) içerisinde klasörlenmiştir.
+
 * İlgili çalışmalara ait klasörlerin eğitmen/denetmenlerce rahatça indirilerek incelenebilmesi için kendine ait depolama/bulut linkleri yukarıdaki gibi verilmiştir.
 
 ## Preview
