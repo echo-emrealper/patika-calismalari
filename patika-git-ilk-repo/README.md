@@ -2,7 +2,7 @@
 
  * Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Git](https://app.patika.dev/courses/git) eğitimlerinde oluşturduğumuz ilk repodur.
 
- * İçerisinde bir adet README dosyası ve bir adet de index. html sayfası barındırmaktadır.
+ * İçerisinde bir adet README dosyası ve bir adet de index.html sayfası barındırmaktadır.
 
 ## Çalışma İndirme Linki
 
