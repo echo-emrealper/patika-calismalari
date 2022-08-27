@@ -10,7 +10,7 @@
 
 ## Çalışma İndirme Linki
 
-[Dropbox' dan klasörü indir](https://www.dropbox.com/sh/b6u8oc0xgyjqf4y/AAAcam5E_Oh11L33g2m1zsDTa?dl=0)
+[Çalışma Klasörü Linki (Dropbox)](https://www.dropbox.com/sh/b6u8oc0xgyjqf4y/AAAcam5E_Oh11L33g2m1zsDTa?dl=0)
 
 * Eğitimlerde oluşturulan projeler ve ödevler kategorize edilerek tek bir repo (eğitim reposu) içerisinde klasörlenmiştir.
 * İlgili çalışmalara ait klasörlerin eğitmen/denetmenlerce rahatça indirilerek incelenebilmesi için kendine ait depolama/bulut linkleri yukarıdaki gibi verilmiştir.
