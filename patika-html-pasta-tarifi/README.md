@@ -5,7 +5,6 @@
  * İçerisinde:
  
     * Bir adet index.html sayfası,
-    
     * Bir adet README dosyası barındırmaktadır.
 
 * İçeriğin (bir pastanın tarifi) tam sayfa kullanımı için fazla büyük olacağı düşüncesi ile estetik açıdan sayfanın ortasında bir kart şeklinde tasarlanması daha uygun bulundu
