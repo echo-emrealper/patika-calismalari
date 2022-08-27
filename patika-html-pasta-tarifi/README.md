@@ -14,6 +14,9 @@
 
 [Dropbox' dan klasörü indir](https://www.dropbox.com/sh/ofysdpw3krkt6jc/AAAKbEtaKSOSuQZ0jZ09JjWCa?dl=0)
 
+* Eğitimlerde oluşturulan projeler ve ödevler kategorize edilerek tek bir repo (eğitim reposu) içerisinde klasörlenmiştir.
+* İlgili çalışmalara ait klasörlerin eğitmen/denetmenlerce rahatça indirilerek incelenebilmesi için kendine ait depolama/bulut linkleri yukarıdaki gibi verilmiştir.
+
 ## Preview
 
 ![echo-emrealper](img/echo-emrealper-kumarbaz-pastasi.png)
