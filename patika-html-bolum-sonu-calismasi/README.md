@@ -5,11 +5,8 @@
  * İçerisinde:
  
     * Bir adet index.html sayfası,
-   
     * Bir adet about-us.html sayfası,
-    
     * Bir adet contact.html sayfası,
-    
     * Bir adet README dosyası barındırmaktadır.
 
 ## Çalışma İndirme Linki
