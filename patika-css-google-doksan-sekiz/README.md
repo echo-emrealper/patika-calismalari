@@ -12,4 +12,4 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-CSS](https://app.patika
 
 ## Preview
 
-![echo-emrealper]()
+![echo-emrealper](media/echo-emrealper-css-odev-two-preview.png)
