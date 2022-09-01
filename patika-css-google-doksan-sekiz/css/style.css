@@ -1,0 +1,74 @@
+/* Layout - Start*/
+.body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+}
+
+.container {
+    width: 90%;
+    margin: 1% auto 1%;
+}
+/* Layout - End*/
+
+/* Start - Kart Bloklarının Tasarlanması */
+    /* Kart Blok: Master*/
+.card {
+    background-color: #EEEEEE;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0.1% 0;
+    text-align: -webkit-center;
+}
+    /* Kart Blok: Boyut ve yerleşim özelleştirme */
+.size-per40 {
+    width: 40%;
+    height: 110px;
+    align-items: center;
+}
+
+.size-per20 {
+    width: 19.8%;
+    height: 110px;
+    margin: 0.1% 0.1%;
+    align-items: center;
+}
+
+.size-perlogo {
+    width: 351px;
+    padding: 3px 0;
+}
+
+    /* Kart Blok: Renkleri özelleştirme */
+.bg-greendeep-light {
+    background-color: #7EE5DA;
+}
+
+.bg-greendeep-medium {
+    background-color: #70CCC2;
+}
+
+.bg-greendeep-heavy {
+    background-color: #62B3AA;
+}
+/* End - Kart Bloklarının Tasarlanması */
+
+/* Start - Content özelleştirme */
+.center {
+    display: block;
+    margin: 1% auto 1%;
+}
+
+.font-specs {
+    font-size: medium;
+}
+
+.p-margin {
+    margin: 0;
+}
+/* End - Content özelleştirme */
