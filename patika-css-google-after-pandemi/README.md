@@ -4,7 +4,7 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-CSS](https://app.patika
 
 ## Çalışma İndirme Linki
 
-[Çalışma Klasörü Linki (Dropbox)]()
+[Çalışma Klasörü Linki (Dropbox)](https://www.dropbox.com/sh/oi6jugl76glco1h/AAAs4whdWSlT4vgWQDs6Ok8sa?dl=0)
 
 * Eğitimlerde oluşturulan projeler ve ödevler kategorize edilerek tek bir repo (eğitim reposu) içerisinde klasörlenmiştir.
 
