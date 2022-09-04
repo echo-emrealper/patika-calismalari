@@ -1,6 +1,6 @@
 # Google 98 Stil Klonlama
 
-Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-CSS](https://app.patika.dev/courses/css/) eğitimlerinde [Google 98](https://web.archive.org/web/19981202230410if_/http://www.google.com/) stilinde bir site oluşturulması konulu 2. ödev içeriğidir.
+Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-CSS](https://app.patika.dev/courses/css/) eğitimlerinde [Google (Güncel)](http://www.google.com/) stilinde bir site oluşturulması konulu 3. ödev içeriğidir.
 
 ## Çalışma İndirme Linki
 
@@ -12,4 +12,4 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-CSS](https://app.patika
 
 ## Preview
 
-![echo-emrealper](media/echo-emrealper-css-odev-two-preview.png)
+![echo-emrealper](assets/echo-emrealper-css-odev-thr-preview.png)
