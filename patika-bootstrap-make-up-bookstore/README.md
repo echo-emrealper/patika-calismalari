@@ -2,6 +2,8 @@
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Bootsrap](https://app.patika.dev/courses/bootstrap) eğitimleri kapsamında olup;  daha önce [Patika-CSS](https://app.patika.dev/courses/css) eğitimlerinde konu olan [örneğin](https://github.com/echo-emrealper/patika-calismalari/tree/main/patika-css-make-up-bookstore) Bootstrap kütüphanesi kullanılarak yeniden dizaynı konulu içeriktir.
 
+**Not:** Patika çalışma örneği müzik aleti satış sitesi olmasına rağmen tarafımda sevdiğim kurgu türünde kitapların satışı üzerine **(ödevde istenilen elementler kullanılarak)** bir site dizaynı gerçekleştirilmiştir.
+
 ## Çalışma İndirme Linki
 
 [Çalışma Klasörü Linki (Dropbox)]()
