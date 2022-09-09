@@ -12,5 +12,5 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Bootsrap](https://app.p
 
 ## Preview
 
-![echo-emrealper]()
-
+![echo-emrealper](media/brand-files/bootsrap-pre-01.png)
+![echo-emrealper](media/brand-files/bootsrap-pre-02.png)

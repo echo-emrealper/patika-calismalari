@@ -1,69 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İletişim | Patika</title>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Logo & Fonts  -->
     <link rel="shortcut icon" href="../media/brand-files/site-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-</head>
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>İletişim | Patika</title>
+
+    <style>
+        .box {
+            border: 1px solid red !important;
+        }
+    </style>
 
 <body>
+    <!-- Header - Start -->
+    <header class="container navbar navbar-expand-sm bg-dark navbar-dark fixed-top ms-auto">
+        <a href="index.html" class="navbar-brand"><img src="../media/brand-files/site-logo.png" alt="Brand Logo"
+                height="50px"></a>
+        <div class="navbar-nav mr-auto" style="font-weight: bold;">
+            <a href="../index.html" class="nav-item nav-link active">Ana Sayfa</a>
+            <a href="../sub-pages/tuhaf-kurgu.html" class="nav-item nav-link ">Tuhaf Kurgu Kitapları</a>
+            <a href="../sub-pages/arastirma.html" class="nav-item nav-link">Tuhaf Kurgu Araştırma Kitapları</a>
+            <a href="../sub-pages/iletisim.html" class="nav-item nav-link active">İletişim</a>
+        </div>
+    </header>
+    <!-- Header - End -->
 
-    <!-- Content - Start -->
-    <div class="body-box">
+    <!-- Main Container - Start -->
+    <main class="container" role="main" style="background-color: #E9ECEF !important">
+        <br><br>
+        <section class="row justify-content-center">
+            <img src="../media/brand-files/miskatonic.png"  class="w-50" alt="Tuhaf Kurgu Kitaplarımız" width="200">
+            </picture>
+        </section>
+        <section class="row mb-5">
+            <article class="col-sm-12">
+                <!-- Ariticle - Sales Info - Start -->
+                <article style="text-align:center;">
+                    <p><em><strong>Banka Bilgileri: </strong> Attim Bank</em></p>
+                    <p><em><strong>IBAN: </strong> TR12345678901234567890</em></p>
+                    <p><em><strong>Mail Bilgileri: </strong><a
+                                href="mailto:sales@onlinebookstore.com">satis@onlinebookstore.com</a><br /p>
+                </article>
+                <!-- Ariticle - Sales Info - End-->
+            </article>
+        </section>
+        <br><br>
+    </main>
+    <!-- Main Container - End -->
 
-        <!-- Header - Start -->
-        <header>
-            <img src="../media/brand-files/site-logo.png" alt="Brand Logo" title="Online Bookstore">
-            <hr>
-            <ul class="menu">
-                <li><a href="../index.html">Ana Sayfa</a></li>
-                <li><a href="tuhaf-kurgu.html">Tuhaf Kurgu Kitapları</a></li>
-                <li><a href="arastirma.html">Tuhaf Kurgu Araştırma Kitapları</a></li>
-                <li><a href="iletisim.html">İletişim</a></li>
-            </ul>
-            <br>
-        </header>
-        <!-- Header - End -->
+    <!-- Footer - Start -->
+    <footer class="container navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom ms-auto justify-content-center page-footer"
+        style="height:50px ;">
+        <div class="navbar-nav" style="font-weight: bold;display: table;">
+            <a href="https://www.kodluyoruz.org/"><img src="../media/brand-files/logo-kodluyoruz.png" alt="Brand Logo"
+                    width="120"></a>
+            <a href="https://www.patika.dev/tr"><img src="../media/brand-files/logo-patika.png" alt="Brand Logo" width="65"
+                    style="margin-top:5px ;"></a>
+        </div>
+    </footer>
+    <!-- Footer - End -->
 
-
-
-
-        <!-- Ariticle - Sales Info - Start -->
-        <article>
-            <p><em><strong>Banka Bilgileri: </strong> Attim Bank</em></p>
-            <p><em><strong>IBAN:  </strong> TR12345678901234567890</em></p>
-            <p><em><strong>Mail Bilgileri: </strong><a
-                        href="mailto:sales@onlinebookstore.com">satis@onlinebookstore.com</a><br /p>
-        </article>
-        <!-- Ariticle - Sales Info - End-->
-
-        <!-- Footer - Start -->
-        <footer>
-            <hr>
-            <div class="table">
-                <ul class="footer">
-                    <li><a href="https://www.kodluyoruz.org/"> <img src="../media/brand-files/logo-kodluyoruz.png"
-                                alt="Kodluyoruz Logo" title="Kodluyoruz.org" width="100"></a></li>
-
-                    <li><a href="https://app.patika.dev/"> <img src="../media/brand-files/logo-patika.png"
-                                alt="Patika Logo" title="Patika.dev" width="55"></a></li>
-                </ul>
-            </div>
-        </footer>
-        <!-- Footer - End -->
-
-
-
-    </div>
-    <!-- Content - End -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
 </body>
 

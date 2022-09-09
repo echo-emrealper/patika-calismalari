@@ -1,18 +1,48 @@
-/****************** Body Styles  *********************/
-
+/****************** Layout Styles  *********************/
 body {
-    background-color:#E9ECEF !important;
+    background-color: #F8EFD4 !important;
+    padding-top: 75px;
+    font-family: "Roboto", "sans-serif";
 }
 
 main {
-    border:2px solid #4E4E4E;
+    /* background-color: #E9ECEF !important; --> yerine main containerde direkt kullanıldı */
+    font-size: 1.05em !important;
 }
 
-main hr {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border: none;
-    height: 3px;
-    background: #FFBD00;
+/****************** Element Styles  *********************/
+li {
+    margin: 10px 0;
+    text-align: justify;
+}
 
+h3 {
+    color: #ff7b00;
+}
+
+.card {
+    width: 12rem;
+    margin: 0.5rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+a:hover {
+    color: #FFBD00 !important;
+}
+
+/****************** Other Styles  *********************/
+.box {
+    width: 100px;
+    height: 30px;
+    padding: 1px 0 0 0;
+    color: black;
+    font-weight: 500;
+    background-color: #FFBD00;
+    text-align: center;
+    border-radius: 50px;
 }
