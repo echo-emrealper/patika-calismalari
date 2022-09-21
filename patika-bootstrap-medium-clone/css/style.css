@@ -1,0 +1,70 @@
+body {
+    font-family: 'PT Serif', serif !important;
+}
+
+.navbar-custom {
+    height: 75px;
+  }
+
+.bg-yellow {
+    background-color: #FFC017;
+}
+
+.border-bottom-dark {
+    border-bottom:1px solid #292929;
+}
+
+.border-bottom-soft {
+    border-bottom:1px solid RGB(230, 230, 230, 2);
+}
+
+.trend-font {
+
+    font-weight:bold;
+    color: rgba(230, 230, 230, 1);
+    font-size: 30px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.link-custom {
+    text-decoration: none;
+    color: green;
+}
+
+
+.link-custom:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.link-custom2 {
+    text-decoration: none;
+    color: grey;
+}
+
+
+.link-custom2:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.link-custom3 {
+    text-decoration: none;
+    color: black;
+}
+
+
+.link-custom3:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.aside-button > li {
+    margin-bottom: 10px;
+}
+
+.board-profile-pic {
+    border-radius: 4px;
+}
