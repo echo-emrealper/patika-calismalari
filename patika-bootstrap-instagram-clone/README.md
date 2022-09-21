@@ -11,6 +11,7 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Bootsrap](https://app.p
 * İlgili çalışmalara ait klasörlerin eğitmen/denetmenlerce rahatça indirilerek incelenebilmesi için kendine ait depolama/bulut linkleri yukarıdaki gibi verilmiştir.
 
 ## Preview
+sd
 
 ![echo-emrealper](assets/bootsrap-insta-pre.png)
 
