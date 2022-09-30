@@ -2,7 +2,7 @@
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Veri Yapıları ve Algoritmalar](https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar) eğitimleri kapsamında hazırlanmıştır.
 
->**Not:** Eğitim videolarında **insertion sort** başlığı altında **selection sort** anlatıldığı için kasıtın selection sort olduğu düşünülerek ilgili algoritma üzerinden çalışılmıştır. 
+>>>>>**Not:** Eğitim videolarında **insertion sort** başlığı altında **selection sort** anlatıldığı için kasıtın selection sort olduğu düşünülerek ilgili algoritma üzerinden çalışılmıştır. 
 
 **Dizi: [22,27,16,2,18,6] -> Selection Sort (Notu okuyunuz):**
 
