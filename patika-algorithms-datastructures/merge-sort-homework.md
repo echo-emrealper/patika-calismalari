@@ -20,4 +20,10 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Veri Yapıları ve Algo
       [11,16,21]     [8,12,22]
                  \ /
           [8,11,12,16,21,22]  
-```                    
+```  
+>**2. Big-O gösterimini yazınız.**
+
++ O(nlogn)
+  + Worst Case: nlogn
+  + Average Case: nlogn
+  + Best Case: nlogn
