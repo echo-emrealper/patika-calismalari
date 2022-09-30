@@ -2,7 +2,7 @@
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Veri Yapıları ve Algoritmalar](https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar) eğitimleri kapsamında hazırlanmıştır.
 
-##### Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] -> Merge Sort
+##### Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] -> Binary Search Tree
 
 >**1. Şematik Gösterim**
 
