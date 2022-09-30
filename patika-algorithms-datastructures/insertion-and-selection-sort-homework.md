@@ -6,7 +6,7 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Veri Yapıları ve Algo
 
 **Dizi: [22,27,16,2,18,6] -> Selection Sort (Notu okuyunuz):**
 
->##### 1. Yukarı verilen dizinin sort türüne göre aşamalarını yazınız:
+>##### 1. Yukarıda verilen dizinin sort türüne göre aşamalarını yazınız:
 
 + I01: [2,27,16,22,18,6]
 + I02: [2,6,16,22,18,27]
