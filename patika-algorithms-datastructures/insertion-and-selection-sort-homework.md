@@ -1,4 +1,4 @@
-# Selection Sort Projesi
+# Selection ve Insertion Sort Projesi
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Veri Yapıları ve Algoritmalar](https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar) eğitimleri kapsamında hazırlanmıştır.
 
@@ -8,9 +8,9 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Veri Yapıları ve Algo
 
 >##### 1. Yukarı verilen dizinin sort türüne göre aşamalarını yazınız:
 
-+ I01: [2,27,16,22,18,6] -> n-1
-+ I02: [2,6,16,22,18,27] -> n-2
-+ I03: [2,6,16,18,22,27] -> 1
++ I01: [2,27,16,22,18,6]
++ I02: [2,6,16,22,18,27]
++ I03: [2,6,16,18,22,27]
 
 >##### 2. Big-O gösterimini yazınız:
 + O(n^2)
@@ -26,3 +26,20 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Veri Yapıları ve Algo
 + Average case: Aradığımız sayının ortada olması
 + Sıralanmış dizi: [2,6,16,**18**,22,27]
 + 18 ortaya yakınsak olduğu için **avarage case** konusudur. 
+
+
+>##### 5. [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.:
+
++ I01: [2,3,5,8,7,9,4,15,6]
++ I02: [2,3,4,8,7,9,5,15,6]
++ I03: [2,3,4,5,7,9,8,15,6]
++ I04: [2,3,4,5,6,9,8,15,7]
+...
+---
+>##### 6. [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.:
+
++ I01: [3,7,5,8,2,9,4,15,6]
++ I01: [3,5,7,8,2,9,4,15,6]
++ I01: [2,3,5,7,8,9,4,15,6]
++ I01: [2,3,4,5,7,8,9,15,6]
+...
