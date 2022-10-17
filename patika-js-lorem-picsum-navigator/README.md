@@ -1,4 +1,4 @@
-# Javascript ile Saat ve Karşılama
+# Javascript ile Lorem Picsum Navigator
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-JS](https://app.patika.dev/courses/javascript) eğitimleri kapsamındadır.
 
