@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patika | Lorem Picsum Navigator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        /* For Chrome and Safari  */
+
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* For Firefox  */
+
+        input[type="number"] {
+            -moz-appearance: textfield;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ">
+            <p class="text-white bg-dark text-center mb-4 align-text-top" style="font-size: 1.5em;">LOREM PICSUM
+                NAVIGATOR</p>
+            <br><br>
+            <div class="col-lg-4 mb-5 mt-5 mr-auto">
+                <form action="">
+                    <input type="number" id="counter" name="quantity" min="0"></input>
+                </form>
+                <br>
+                <button id="getbutton">Getir</button>
+                <button id="increase">Arrtır</button>
+                <button id="decrease">Azalt</button>
+                <div class="card mt-5 text-center">
+                    <p class="bg-dark text-white">Picsum Link</p>
+                    <p id="picLink"></p>
+                </div>
+                <div class="card mt-5 text-center">
+                    <p class="bg-dark text-white">Picsum Info</p>
+                    <p id="picsumINFO"></p>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="row">
+                    <img id="picsum" onerror="notExistImage()" style="height: 600; width:200;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/23-counter-ornek.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
