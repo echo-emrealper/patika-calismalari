@@ -4,7 +4,7 @@ let counterDom = document.querySelector("#counter");
 let increaseDom = document.querySelector("#increase");
 let decreaseDom = document.querySelector("#decrease");
 let getDom = document.querySelector("#getbutton");
-let counter = 0;
+let counter = localStorage.getItem('counter') ? Number(localStorage.getItem('counter')) : 0;
 let picsumDom = document.querySelector("#picsum");
 let picsumInfoDom = document.querySelector("#picsumINFO");
 let picLink = document.querySelector("#picLink");
@@ -21,7 +21,7 @@ picLink.style.fontSize = "0.6em";
 picsumDom.src = `https://picsum.photos/id/0/800/600`;
 picsumInfoDom.innerHTML = `https://picsum.photos/id/0/info`;
 picLink.innerHTML = `https://picsum.photos/id/0/800/600`;
-counterDom.value = "0";
+counterDom.value = counter;
 
 //DOM Events
 getDom.addEventListener("click", clickEvent);
@@ -29,8 +29,8 @@ increaseDom.addEventListener("click", clickEvent);
 decreaseDom.addEventListener("click", clickEvent);
 
 function clickEvent() {
-    picLink.style.color ="black";
-    picsumInfoDom.style.color ="black"
+    picLink.style.color = "black";
+    picsumInfoDom.style.color = "black"
     //Buton Events
     if (this.id == "getbutton") {
         picsumDom.src = `${getPicsum(counterDom.value)}`;
@@ -46,6 +46,7 @@ function clickEvent() {
         picLink.innerHTML = `${getPicsum(counter)}`;
         picsumInfoDom.innerHTML = `${getPicsumInfo(counter)}`;
     }
+    localStorage.setItem('counter', counter);
 }
 
 function getPicsum(picsumIDNumber) {
@@ -61,11 +62,11 @@ function getPicsumInfo(picsumIDNumber) {
 }
 
 function notExistImage() {
-        picsumDom.src = `https://rasmusbroennum.files.wordpress.com/2011/11/non-existent.jpg`;
-        picLink.innerHTML = `--- ID:NULL ---`;
-        picLink.style.color ="red"
-        picsumInfoDom.innerHTML = `--- ID: NULL ---`;
-        picsumInfoDom.style.color ="red"
+    picsumDom.src = `https://rasmusbroennum.files.wordpress.com/2011/11/non-existent.jpg`;
+    picLink.innerHTML = `--- ID:NULL ---`;
+    picLink.style.color = "red"
+    picsumInfoDom.innerHTML = `--- ID: NULL ---`;
+    picsumInfoDom.style.color = "red"
 
 }
 
