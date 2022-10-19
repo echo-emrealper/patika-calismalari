@@ -18,9 +18,9 @@ picsumInfoDom.style.fontSize = "0.6em";
 picLink.style.fontSize = "0.6em";
 
 //DOM başlangıç setleme
-picsumDom.src = `https://picsum.photos/id/0/800/600`;
-picsumInfoDom.innerHTML = `https://picsum.photos/id/0/info`;
-picLink.innerHTML = `https://picsum.photos/id/0/800/600`;
+picsumDom.src = getPicsum(counter);
+picsumInfoDom.innerHTML = getPicsumInfo(counter) ;
+picLink.innerHTML = getPicsum(counter);
 counterDom.value = counter;
 
 //DOM Events
