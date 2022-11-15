@@ -1,11 +1,9 @@
-
 let greetingName = getName();
 let myName = document.querySelector("#myName");
 let myClock = document.querySelector("#myClock");
 
 myName.style.color = "greenyellow";
-myName.innerHTML = capitilazeFirstLetter(greetingName);
-
+myName.innerHTML = showName(greetingName);
 
 function getName() {
     // İSİM ÇAĞIRAN FONKSİYON
@@ -21,17 +19,14 @@ function getName() {
     }
 }
 
-
-
-function capitilazeFirstLetter(str) {
-    //GİRİLEN KELİME YA DA KELİME GRUPLARININ İLK HARFLERİNİ BÜYÜK YAPAR
+function showName(str) {
+    // STRING DEĞERİ DİZİYE ATAYIP, İLK HARFLERİ BÜYÜK YAPAN FONKSİYONU ÇAĞIRIR
     const arr = str.split(" ");
-    for (let i = 0; i < arr.length; i++) {
-        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
-    }
-    return arr.join(" ");
+    // DİZİDE GEZEREK HER ELEMANIN İLK HARFİNİ BÜYÜK YAPAR
+    arr.forEach((item, index, arr) => arr[index] = item.charAt(0).toUpperCase() + item.slice(1))
+    str = arr.join(" ")
+    return str;
 }
-
 
 function showTime() {
     //ZAMANI VE TARİHİ  XX.XX.XX "STR DAY" ŞEKLİNDE GÖSTERİR
