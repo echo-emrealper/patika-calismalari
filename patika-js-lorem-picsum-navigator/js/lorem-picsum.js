@@ -33,18 +33,16 @@ function clickEvent() {
     picsumInfoDom.style.color = "black"
     //Buton Events
     if (this.id == "getbutton") {
-        picsumDom.src = `${getPicsum(counterDom.value)}`;
-        picsumInfoDom.innerHTML = `${getPicsumInfo(counterDom.value)}`;
         counter = counterDom.value;
-        picLink.innerHTML = `${getPicsum(counterDom.value)}`;
-        picsumInfoDom.innerHTML = `${getPicsumInfo(counterDom.value)}`;
+        picsumDom.src = getPicsum(counterDom.value);
+        picsumInfoDom.innerHTML = getPicsumInfo(counterDom.value);
+        picLink.innerHTML = getPicsum(counterDom.value);
     } else {
         (this.id == "decrease") ? (counter > 0 ? counter-- : 0) : counter++;
         counterDom.value = counter;
-        picsumDom.src = `${getPicsum(counter)}`;
-        picsumInfoDom.innerHTML = `${getPicsumInfo(counter)}`;
-        picLink.innerHTML = `${getPicsum(counter)}`;
-        picsumInfoDom.innerHTML = `${getPicsumInfo(counter)}`;
+        picsumDom.src = getPicsum(counter);
+        picsumInfoDom.innerHTML = getPicsumInfo(counter);
+        picLink.innerHTML = getPicsum(counter);
     }
     localStorage.setItem('counter', counter);
 }
@@ -67,6 +65,5 @@ function notExistImage() {
     picLink.style.color = "red"
     picsumInfoDom.innerHTML = `--- ID: NULL ---`;
     picsumInfoDom.style.color = "red"
-
 }
 
