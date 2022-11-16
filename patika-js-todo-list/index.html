@@ -12,33 +12,35 @@
 </head>
 
 <body>
+  <!-- TOAST - START -->
   <div class="mr-1" style="position: relative">
     <div style="position: absolute; top: 0; right: 0">
-      <div id="liveToast" class="toast success hide" role="alert" aria-live="assertive" aria-atomic="true"
+      <div id="liveToastSuccess" class="toast success hide" role="alert" aria-live="assertive" aria-atomic="true"
         data-delay="4000">
         <div>
-          <button type="button" class="close" data-dismiss="toast" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="close text-white" data-dismiss="toast" aria-label="Close">
+            <span class="m-1" aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="toast-body">Listeye eklendi.</div>
+        <div class="toast-body bg-success text-white" style="width:250px;">Listeye eklendi.</div>
       </div>
     </div>
   </div>
-  <div class="mr-1" style="position: relative">
+  <div class="mr-2" style="position: relative">
     <div style="position: absolute; top: 0; right: 0">
-      <div id="liveToast" class="toast error hide" role="alert" aria-live="assertive" aria-atomic="true"
+      <div id="liveToastError" class="toast error hide" role="alert" aria-live="assertive" aria-atomic="true"
         data-delay="4000">
-        <div>
-          <button type="button" class="close" data-dismiss="toast" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+        <div class="ml-5">
+          <button type="button" class="close text-white" data-dismiss="toast" aria-label="Close">
+            <span class="m-1" aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="toast-body">Listeye boş ekleme yapamazsınız!</div>
+        <div class="toast-body bg-danger text-white" style="width:250px;">Listeye boş ekleme yapamazsınız!</div>
       </div>
     </div>
   </div>
-  
+  <!-- TOAST - END -->
+
   <!-- MAIN - START -->
   <main class="container mt-5">
     <!-- HEADER - START -->
@@ -47,7 +49,7 @@
         class="mb-1" alt="" />
       <h2>Yapılacaklar Listesi</h2>
       <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
-      <span onclick="newElement()" id="liveToastBtn" class="button">Ekle</span>
+      <span id="liveToastBtn" class="button">Ekle</span>
     </header>
     <!-- HEADER - END -->
   </main>

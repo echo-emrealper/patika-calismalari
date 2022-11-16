@@ -1,61 +1,89 @@
-/*  
-    1. UL list under container div
-    2. UL element ID: "list"
-*/
-let countainerDOM = document.querySelector('.container');
-let ulDOM = document.createElement('ul');
+//SELECTORS, VARIABLES
+const containerDOM = document.querySelector('.container');
+const addButtonDOM = document.querySelector("#liveToastBtn")
+const ulDOM = document.createElement('ul');
+const textInput = document.querySelector('#task')
+let items = getLocalStorage() ? getLocalStorage() : [];
+let counter = localStorage.getItem('counter') ? localStorage.getItem('counter') : 0;
 ulDOM.id = "list"
-countainerDOM.appendChild(ulDOM);
-ulDOM.addEventListener('click', checkedElement)
+containerDOM.appendChild(ulDOM);
+items ? items.forEach(localStorageInitialize) :"";
 
-/* 
-    1. Function: Create li element
-*/
+//EVENTS
+addButtonDOM.addEventListener('click', addElement);
+ulDOM.addEventListener('click', checkElement);
+ulDOM.addEventListener('click', removeElement);
 
-let counter = 0;
-let textInput = document.querySelector('#task')
-
-const newElement = (event => {
+//FUNCTIONS
+function addElement(event) {
+    // TO ADD LIST ITEM
     if (textInput.value.trim()) {
-        let liDOM = document.createElement('li');
-        let spanDOM = document.createElement('span');
+        const liDOM = document.createElement('li');
+        const spanDOM = document.createElement('span');
+        const item = { itemID: `li-${counter}`, item: textInput.value.trim(), isChecked: false }
         liDOM.id = `li-${counter}`;
         liDOM.innerHTML = textInput.value.trim();
         ulDOM.appendChild(liDOM);
         spanDOM.classList.add('close');
         spanDOM.innerHTML = "x"
         liDOM.appendChild(spanDOM);
-    } else {
+        items.push(item)
+        counter++;
+        $(".success").toast("show")
 
+    } else {
+        $(".error").toast("show")
     }
+    localStorage.setItem('counter', counter);
+    setLocalStorage(items)
     textInput.value = "";
 }
-);
 
-function checkedElement(event) {
+function checkElement(event) {
+    // TO CHECK LIST ITEM
     if (event.target.tagName === 'LI') {
+        getLocalStorage();
+        const getID = event.target.id;
+        const getIndex = items.findIndex(item => item.itemID === getID);
         event.target.classList.toggle('checked');
+        event.target.className === 'checked' ? items[getIndex].isChecked = true : items[getIndex].isChecked = false;
+        setLocalStorage(items)
     }
 }
 
+function removeElement(event) {
+    // TO REMOVE LIST ITEM
+    if (event.target.tagName === 'SPAN') {
+        getLocalStorage();
+        const getID = event.target.parentElement.id;
+        const getIndex = items.findIndex(item => item.itemID === getID);
+        event.target.parentElement.remove();
+        items.splice(getIndex, 1);
+        setLocalStorage(items);
+    }
+}
 
-// ulDOM.addEventListener('click', function(ev) {
-//     if (ev.target.tagName === 'LI') {
-//       ev.target.classList.toggle('checked');
-//     }
-//   }, false);
+function localStorageInitialize(items) {
+    //TO INITIALIZE LOCAL STORAGE ITEMS
+    const liDOM = document.createElement('li');
+    const spanDOM = document.createElement('span');
+    liDOM.id = items.itemID;
+    liDOM.innerHTML = items.item;
+    items.isChecked ? liDOM.classList.add('checked') :"";
+    ulDOM.appendChild(liDOM);
+    spanDOM.classList.add('close');
+    spanDOM.innerHTML = "x"
+    liDOM.appendChild(spanDOM);
+}
 
-//   function(ev) {
-//     if (ev.target.tagName === 'LI') {
-//       ev.target.classList.toggle('checked');
-//     }
-//   }, false);
+function getLocalStorage() {
+    //TO GET LOCAL STORAGE
+    let items = localStorage.getItem("items");
+    items = JSON.parse(items);
+    return items;
+}
 
-// function checkedList(event) {
-//     if (element.target.tagName === 'LI') {
-//         element.target.classList.toggle('checked');
-//     }
-// };
-
-
-
+function setLocalStorage(items) {
+    //TO SET LOCAL STORAGE
+    localStorage.setItem('items', JSON.stringify(items));
+}
