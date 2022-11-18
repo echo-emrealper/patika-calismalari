@@ -7,7 +7,7 @@ let items = getLocalStorage() ? getLocalStorage() : [];
 let counter = localStorage.getItem('counter') ? localStorage.getItem('counter') : 0;
 ulDOM.id = "list"
 containerDOM.appendChild(ulDOM);
-items ? items.forEach(localStorageInitialize) :"";
+items ? items.forEach(localStorageInitialize) :[];
 
 //EVENTS
 addButtonDOM.addEventListener('click', addElement);
