@@ -12,5 +12,5 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-JS](https://app.patika.
 
 ## Preview
 
-![echo-emrealper](media/ss-01.jpg)
-![echo-emrealper](media/ss-02.jpg)
+![echo-emrealper](media/ss01.png)
+![echo-emrealper](media/ss02.png)
