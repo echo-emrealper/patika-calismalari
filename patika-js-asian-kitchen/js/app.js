@@ -1,7 +1,7 @@
-// import from another js files
+// import "menu" from another js files
 import { menu } from "./menu.js";
 
-//variables
+//dom variables
 const btnSection = document.querySelector('.btn-container');
 const menuSection = document.querySelector('.section-center');
 const foodList = [...new Set(menu.map(item => item.category))];
@@ -23,14 +23,10 @@ function starter(loader, items, listener) {
     listener.childNodes.forEach(item => item.addEventListener('click', filterMenu));
 }
 
-//to create buttons for foodList
-function createButton(category) {
-    const btn = document.createElement('button');
-    btn.classList.add('btn', 'btn-item', 'btn-outline-dark');
-    btn.id = category;
-    btn.textContent = category;
-    return btn;
-}
+//to create menu
+function createMenu(items) {
+    items.forEach(item => menuSection.innerHTML += createMenuItem(item))
+};
 
 //to create menu items --> call by CreateMenu for foodList
 function createMenuItem(item) {
@@ -47,10 +43,14 @@ function createMenuItem(item) {
     return menuItem;
 }
 
-//to create menu
-function createMenu(items) {
-    items.forEach(item => menuSection.innerHTML += createMenuItem(item))
-};
+//to create buttons for foodList
+function createButton(category) {
+    const btn = document.createElement('button');
+    btn.classList.add('btn', 'btn-item', 'btn-outline-dark');
+    btn.id = category;
+    btn.textContent = category;
+    return btn;
+}
 
 //to filter menu
 function filterMenu(el) {
