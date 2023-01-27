@@ -4,5 +4,5 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-SQL](https://app.patika
 
 * Bu eğitimde oluşturulan ödevler kategorize edilerek tek bir repo içerisinde klasörlenmiştir.
 
-### [SQL ÖDEV 1](./SQLHW01.sql)
+#### [SQL ÖDEV 1](./SQLHW01.sql)
 
