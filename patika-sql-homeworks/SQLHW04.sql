@@ -15,7 +15,7 @@ WHERE title LIKE 'T%' AND rating = 'G';
 -- 4. country tablosunda bulunan ülke isimlerinden (country) kaç tanesi 5 karakterden oluşmaktadır?
 
 SELECT COUNT(country) from country
-WHERE country ILIKE '____';
+WHERE country ILIKE '_____';
 
 -- 5. city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
 SELECT COUNT(city) from city
