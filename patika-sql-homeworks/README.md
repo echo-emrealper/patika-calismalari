@@ -15,3 +15,4 @@ Bu eğitimde oluşturulan ödevler kategorize edilerek tek bir repo içerisinde 
 * #### [SQL ÖDEV 09](./SQLHW09.sql)
 * #### [SQL ÖDEV 10](./SQLHW10.sql)
 * #### [SQL ÖDEV 11](./SQLHW11.sql)
+* #### [SQL ÖDEV 12](./SQLHW12.sql)
