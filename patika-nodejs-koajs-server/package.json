@@ -1,0 +1,19 @@
+{
+  "name": "nodekoa",
+  "version": "1.0.0",
+  "description": "node koa.js exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "koa"
+  ],
+  "author": "subotai",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.1"
+  }
+}
