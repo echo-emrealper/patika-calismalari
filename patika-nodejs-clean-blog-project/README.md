@@ -12,5 +12,8 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Node.JS](https://app.pa
 
 ## Preview
 
-#### Node.JS HW07 - Update
-![echo-emrealper](./img/screen/NJS-HW07.png)
+#### Node.JS HW08 - Update (Template Engines & Static Files)
+![echo-emrealper](./public/img/screen/NJS-HW08.png)
+
+#### Node.JS HW07 - Update (Workspace)
+![echo-emrealper](./public/img/screen/NJS-HW07.png)
