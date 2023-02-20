@@ -1,4 +1,4 @@
-# Node.JS ile Komut Sattırı Kullanımı
+# Node.JS ile Komut Satırı Kullanımı
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Node.JS](https://app.patika.dev/courses/nodejs) eğitimleri kapsamındadır.
 
