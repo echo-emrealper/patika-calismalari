@@ -12,4 +12,5 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Node.JS](https://app.pa
 
 ## Preview
 
-![echo-emrealper](./img/screen/s01.png)
+#### Node.JS HW07 - Update
+![echo-emrealper](./img/screen/NJS-HW07.png)
