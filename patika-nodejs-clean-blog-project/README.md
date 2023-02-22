@@ -12,6 +12,9 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Node.JS](https://app.pa
 
 ## Preview
 
+#### Node.JS HW09 - Update (MongoDB & Mongoose & Models)
+![echo-emrealper](./public/img/screen/NJS-HW09.png)
+
 #### Node.JS HW08 - Update (Template Engines & Static Files)
 ![echo-emrealper](./public/img/screen/NJS-HW08.png)
 
