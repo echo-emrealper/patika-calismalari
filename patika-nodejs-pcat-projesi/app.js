@@ -42,7 +42,7 @@ app.get('/', async (req, res) => {
 
     const photos = await Photo.find({});
     res.render('index', {
-        photos
+        photos,
     });
 });
 
@@ -56,6 +56,15 @@ app.get('/add', (req, res) => {
 
 app.get('/video-page', (req, res) => {
     res.render('video-page');
+});
+
+app.get('/photos/:id', async (req, res) => {
+    //console.log(req.params.id);
+    //res.render('photo');
+    const photo = await Photo.findById(req.params.id);
+    res.render('photo', {
+        photo,
+    });
 });
 
 app.post('/photos', async (req, res) => {
