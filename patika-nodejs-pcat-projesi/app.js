@@ -82,6 +82,7 @@ app.post('/photos', async (req, res) => {
 
     let uploadedImage = req.files.image;
     let uploadPath = __dirname + '/public/uploads/' + uploadedImage.name;
+    
     uploadedImage.mv(uploadPath, async () => {
         await Photo.create({
             ...req.body,
