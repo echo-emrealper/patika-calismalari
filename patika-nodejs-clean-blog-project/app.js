@@ -40,7 +40,7 @@ app.set('view engine', 'ejs');
 
 // ROUTES: STANDART
 app.get('/', async (req, res) => {
-  const posts = await Post.find({});
+  const posts = await Post.find({}).sort('-dateCreated');
   res.render('index', {
     posts,
   });
