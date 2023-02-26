@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const fileUpload = require('express-fileupload');
+const methodOverride = require('method-override');
 const ejs = require('ejs');
 const path = require('path');
 const fs = require('fs');
@@ -30,6 +31,7 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(fileUpload());
+app.use(methodOverride('_method'));
 /* app.use(myLogger);
 app.use(myLogger2); */
 
@@ -82,7 +84,7 @@ app.post('/photos', async (req, res) => {
 
     let uploadedImage = req.files.image;
     let uploadPath = __dirname + '/public/uploads/' + uploadedImage.name;
-    
+
     uploadedImage.mv(uploadPath, async () => {
         await Photo.create({
             ...req.body,
@@ -90,6 +92,21 @@ app.post('/photos', async (req, res) => {
         });
         res.redirect('/');
     });
+});
+
+app.get('/photos/edit/:id', async (req, res) => {
+    const photo = await Photo.findOne({ _id: req.params.id });
+    res.render('edit', {
+        photo,
+    });
+});
+
+app.put('/photos/:id', async (req, res) => {
+    const photo = await Photo.findOne({ _id: req.params.id });
+    photo.title = req.body.title;
+    photo.description = req.body.description;
+    photo.save();
+    res.redirect(`/photos/${req.params.id}`);
 });
 
 app.listen(port, () => {
