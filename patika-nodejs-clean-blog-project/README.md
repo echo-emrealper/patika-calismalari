@@ -12,6 +12,9 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-Node.JS](https://app.pa
 
 ## Preview
 
+#### Node.JS HW11 - Update (MVC)
+![echo-emrealper](./public/img/screen/NJS-HW11.png)
+
 #### Node.JS HW10 - Update (Posts Page Templates)
 ![echo-emrealper](./public/img/screen/NJS-HW10.png)
 
