@@ -1,6 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const methodOverride = require('method-override');
 const ejs = require('ejs');
+const fs = require('fs');
 const app = express();
 const port = 3000;
 const Post = require('./models/Post');
@@ -13,11 +15,12 @@ mongoose.connect('mongodb://127.0.0.1/cleanblog-test-db');
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(methodOverride('_method'));
 
 // TEMPLATE ENGINE
 app.set('view engine', 'ejs');
 
-// ROUTES
+// ROUTES: TOPLU
 /* app.get('*', (req, res) => {
   switch (req.url) {
     case '/':
@@ -46,6 +49,21 @@ app.get('/', async (req, res) => {
   });
 });
 
+app.get('/posts/edit/:id', async (req, res) => {
+  const post = await Post.findOne({ _id: req.params.id });
+  res.render('edit', {
+    post,
+  });
+});
+
+app.put('/posts/:id', async (req, res) => {
+  const post = await Post.findOne({ _id: req.params.id });
+  post.title = req.body.title;
+  post.detail = req.body.detail;
+  post.save();
+  res.redirect(`/posts/${req.params.id}`);
+});
+
 app.get('/about', (req, res) => {
   res.render('about');
 });
@@ -67,6 +85,11 @@ app.get('/posts/:id', async (req, res) => {
 
 app.post('/posts', async (req, res) => {
   await Post.create(req.body);
+  res.redirect('/');
+});
+
+app.delete('/posts/:id', async (req, res) => {
+  await Post.findByIdAndRemove(req.params.id);
   res.redirect('/');
 });
 

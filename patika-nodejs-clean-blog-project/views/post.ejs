@@ -37,10 +37,27 @@
               <p>
                 <%=post.detail %>
               </p>
+              <!-- Share box -->
+              <div class="tm-bg-gray tm-share-box">
+                <form class="text-center" method="POST" action="/posts/<%= post._id%>?_method=DELETE">
+                  <button class="btn btn-danger p-3 m-2 float-right"
+                    onclick="return confirm('Are you sure?')"><span>Delete
+                      Post</span></button>
+                  <div class="text-center">
+                    <a href="/posts/edit/<%=post._id%>" class="btn btn-primary p-3 m-2 float-right"><span>Update
+                        Post</span></a>
+                  </div>
+              </div>
             </div>
+
           </div>
+
         </div>
+
+        </div>
+
       </article>
+
 
       <hr>
 
