@@ -8,5 +8,3 @@
 
 * İlgili çalışmalara ait klasörlerin eğitmen/denetmenlerce rahatça indirilerek incelenebilmesi için kendine ait depolama/bulut linklerini çalışmaya ait klasörün
 README dosyası altında bulabilirsiniz. 
-
- test
