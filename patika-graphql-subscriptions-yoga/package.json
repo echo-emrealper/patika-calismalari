@@ -1,0 +1,22 @@
+{
+  "name": "patika-graphql-subscriptions-yoga",
+  "version": "1.0.0",
+  "description": "Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-GraphQL](https://app.patika.dev/courses/graphql) eğitimleri kapsamındadır.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "graphql-redis-subscriptions": "^2.4.0",
+    "graphql-yoga": "^1.18.3",
+    "ioredis": "^4.27.2",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
