@@ -1,4 +1,4 @@
-# GraphQL Mutations Bölümü Ödevi
+# GraphQL Subscriptions Bölümü Ödevi
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) [Patika-GraphQL](https://app.patika.dev/courses/graphql) eğitimleri kapsamındadır.
 
